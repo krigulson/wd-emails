@@ -1,0 +1,16 @@
+<mj-section padding="5px 30px 0 30px" background-color="#fff">
+  <mj-column width="100%" padding="0">
+    <mj-divider padding="0" border-width="1px" border-color="#E0E0E0" />
+  </mj-column>
+</mj-section>
+<mj-include path="social-media-icons.mjml"></mj-include>
+<mj-section padding-top="0px" background-color="#fff">
+  <mj-column width="100%" padding="0">
+    <mj-text align="center" color="#999" font-size="12px" font-weight="300" padding-top="0">
+			This email was sent regarding your account Universal Exports Ltd.
+		</mj-text>
+		<mj-text align="center" color="#999" font-size="12px" font-weight="300" padding-top="0">
+			<a href="#" style="color: #2979FF; text-decoration: none;">Unsubscribe</a> from this report.
+		</mj-text>
+  </mj-column>
+</mj-section>

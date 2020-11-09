@@ -1,0 +1,7 @@
+<mj-section padding-top="0" padding-bottom="10px" background-color="#FFF">
+  <mj-column>
+    <mj-text padding-bottom="5px" align="center" font-size="14px" font-weight="400" color="#333">Keep on reaching!</mj-text>
+    <mj-text padding-top="0" align="center" font-size="14px" font-weight="400" color="#333">Team Weekdone</mj-text>
+    <mj-image align="center" src="https://beta.weekdone.com/img/wd.svg" width="50px" alt="Weekdone" />
+  </mj-column>
+</mj-section>

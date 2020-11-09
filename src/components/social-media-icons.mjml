@@ -1,0 +1,24 @@
+<mj-section padding-top="20px" background-color="#fff">
+  <mj-column padding="0">
+    <mj-table width="100%" padding="0">
+      <table align="center">
+        <tr>
+          <td align="center">
+            <a href="#" style="text-decoration: none;">
+              <img align="center" alt="Weekdone" width="20px" style="padding: 5px" src="https://beta.weekdone.com/img/email/grayscale-youtube.svg" />
+            </a>
+            <a href="#" style="text-decoration: none;">
+              <img align="center" alt="Weekdone" width="20px" style="padding: 5px" src="https://beta.weekdone.com/img/email/grayscale-facebook.svg" />
+            </a>
+            <a href="#" style="text-decoration: none;">
+              <img align="center" alt="Weekdone" width="20px" style="padding: 5px" src="https://beta.weekdone.com/img/email/grayscale-twitter.svg" />
+            </a>
+            <a href="#" style="text-decoration: none;">
+              <img align="center" alt="Weekdone" width="20px" style="padding: 5px" src="https://beta.weekdone.com/img/email/grayscale-linkedin.svg" />
+            </a>
+          </td>
+        </tr>
+      </table>
+    </mj-table>
+  </mj-column>
+</mj-section>

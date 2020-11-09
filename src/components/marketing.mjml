@@ -1,0 +1,121 @@
+<mj-section padding="20px 0 5px 0">
+  <mj-column>
+    <mj-table padding-bottom="0px">
+      <tr>
+        <td style="text-transform: capitalize; font-size: 18px; font-weight: 700; font-family: " Roboto" color:#333;"> Marketing </td>
+        <td align="right" style="font-weight: 600; color: #FF1744; font-size: 18px;">25%</td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+<mj-section padding="0 20px" background-color="#FFFFFF">
+  <mj-column width="100%" padding="0px 0px 0px 0px">
+    <mj-divider padding="0 0 10px" border-color="#E0E0E0" border-width="1px" border-style="solid" />
+  </mj-column>
+</mj-section>
+<mj-section padding="0 15px">
+  <mj-column padding="0">
+    <mj-table width="100%" cellpadding="5" padding="0">
+      <tr>
+        <td>
+          <span style="background-color: #fafafa;
+											 border:1px solid #fafafa;
+											 border-radius:100%;
+											 color: #999;
+											 display: inline-block;
+											 font-family: 'Roboto';
+											 font-size: 10px;
+											 line-height: 25px;
+											 font-weight: 900;
+											 text-align: center;
+											 width: 24px;
+											 height: 24px;">O</span>
+        </td>
+        <td><span style="color: #333; font-weight: 700; font-size: 14px;">Understand our customers, analyze their behaviour and do some interesting experiments</span></td>
+        <td align="right" width="15%">
+          <span style="color:#333; font-weight: 700; font-size: 14px;">25%</span>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+<mj-section padding-left="30px" padding-right="15px" padding-top="10px" padding-bottom="0">
+  <mj-column padding="0">
+    <mj-table cellpadding="5" padding="0">
+      <tr>
+        <td>
+          <span style="background-color: #fafafa;
+											 border:1px solid #fafafa;
+											 border-radius:100%;
+											 color: #999;
+											 display: inline-block;
+											 font-family: 'Roboto';
+											 font-size: 10px;
+											 line-height: 25px;
+											 font-weight: 900;
+											 text-align: center;
+											 width: 24px;
+											 height: 24px;">KR</span>
+        </td>
+        <td><span style="color: #333; font-weight: 400; font-size: 14px;">Conduct 25 on-site user-testing to understand key product misunderstandings</span></td>
+        <td align="right" width="15%">
+          <span style="font-weight: 600;">
+            <span style="font-weight: 500; font-size: 14px">6</span>
+            <span style="font-weight: 400; font-size: 14px">/25</span>
+          </span>
+          <div><span style="font-weight: 500; font-size: 12px; color: #62C462;">+1*</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span style="background-color: #fafafa;
+											 border:1px solid #fafafa;
+											 border-radius:100%;
+											 color: #999;
+											 display: inline-block;
+											 font-family: 'Roboto';
+											 font-size: 10px;
+											 line-height: 25px;
+											 font-weight: 900;
+											 text-align: center;
+											 width: 24px;
+											 height: 24px;">KR</span>
+        </td>
+        <td><span style="color: #333; font-weight: 400; font-size: 14px;"> Map and analyze the performance of all of our current marketing channels and give at least 10 recommendations on how to improve them</span></td>
+        <td align="right" width="15%">
+          <span style="font-weight: 600;">
+            <span style="font-weight: 500; font-size: 14px">3</span>
+            <span style="font-weight: 400; font-size: 14px">/10</span>
+          </span>
+          <div><span style="font-weight: 500; font-size: 12px; color: #62C462;">+1*</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span style="background-color: #fafafa;
+											 border:1px solid #fafafa;
+											 border-radius:100%;
+											 color: #999;
+											 display: inline-block;
+											 font-family: 'Roboto';
+											 font-size: 10px;
+											 line-height: 25px;
+											 font-weight: 900;
+											 text-align: center;
+											 width: 24px;
+											 height: 24px;">KR</span>
+        </td>
+        <td>
+          <span style="color: #333; font-weight: 400; font-size: 14px;">Map our customer journey to understand what influences their buying decision</span>
+        </td>
+        <td align="right" width="30%">
+          <span style="font-weight: 600;">
+            <span style="font-weight: 500; font-size: 14px">8%</span>
+            <span style="font-weight: 400; font-size: 14px">/33%</span>
+          </span>
+          <div><span style="font-weight: 500; font-size: 12px; color: #62C462;">+1*</span></div>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

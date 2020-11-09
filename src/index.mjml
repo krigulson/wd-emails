@@ -1,41 +1,31 @@
 <mjml>
   <mj-head>
-    <mj-title></mj-title>
+    <mj-title>Company OKR Report</mj-title>
     <mj-attributes>
       <mj-class name="blue" color="blue" />
       <mj-class name="big" font-size="20px" />
-      <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" />
-      <mj-all font-family="Raleway, Arial" />
+      <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+      <mj-all font-family: 'Roboto', sans-serif; />
     </mj-attributes>
+
+    <mj-style> .box-shadow { box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2); } .border-space tr{ border-collapse:separate; border-spacing:0 30px; background-color: #fafafa; } @media only screen and (max-width:601px), only screen and (max-device-width:601px){ @media screen and (max-width: 600px) { /* What it does: Forces table cells into full-width rows. */ .stack-column, .stack-column-center { display: block !important; width: 100% !important; max-width: 100% !important; direction: ltr !important; } /* And center justify these ones. */ .stack-column-center {text-align: center !important;} .full-width-on-narrow {width: 100% !important;} } } 
+		.shadow {
+			box-shadow: 0px 0.4px 1.6px rgba(0, 0, 0, 0.05), 0px 1px 4.2px rgba(0, 0, 0, 0.034), 0px 2.1px 8.5px rgba(0, 0, 0, 0.028), 0px 4.4px 17.5px rgba(0, 0, 0, 0.022), 0px 12px 48px rgba(0, 0, 0, 0.016);}
+		</mj-style>
   </mj-head>
-  <mj-body>
-    <mj-section>
-        <mj-text font-size="20px" align="center">
-          A MJML starter kit with Gulp, BrowserSync & Imagemin
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-button href="https://www.choosit.com" font-family="Helvetica" background-color="#009ee0" color="white">
-          Don't click me yo!
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image width="600px" src="http://www.online-image-editor.com//styles/2014/images/example_image.png" />
-      </mj-column>
-    </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image width="300px" src="http://placehold.it/300x300" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="300px" src="http://placehold.it/300x300" />
-      </mj-column>
-    </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image width="600px" src="img/test.png" />
-      </mj-column>
-    </mj-section>
+  <mj-body width="800px">
+    <mj-section></mj-section>
+    <mj-wrapper padding="0 30px 10px 30px" background-color="#FFF">
+      <mj-include path="components/header.mjml" />
+      <mj-include path="components/progress-by-levels.mjml" />
+      <mj-include path="components/PM.mjml" />
+      <mj-include path="components/sales.mjml" />
+      <mj-include path="components/marketing.mjml" />
+			<mj-include path="components/calculated-text.mjml" />
+			<mj-include path="components/buttons.mjml"/>
+    </mj-wrapper>
+		<mj-include path="components/keep-on-reaching.mjml" />
+    <mj-include path="components/footer.mjml" />
+		<mj-section></mj-section>
   </mj-body>
 </mjml>
