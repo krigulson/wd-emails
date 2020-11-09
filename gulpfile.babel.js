@@ -12,12 +12,14 @@ import del          from 'del';
 // Simple config: just set up paths for everything
 const basePaths = {
   src: './src/',
+  comp: './src/components/',
   dist: './dist/',
 };
 
 const paths = {
   html: {
     src: basePaths.src + '*.mjml',
+    comp: basePaths.comp + '*.mjml',
   },
   images: {
     src: basePaths.src + 'img/*',
@@ -66,7 +68,7 @@ export const watch = () => {
   browserSync.init({
     server: basePaths.dist
   })
-  gulp.watch(paths.html.src, generateHtml);
+  gulp.watch([paths.html.src, paths.html.comp], generateHtml);
   gulp.watch(paths.images.src, images);
 };
 
