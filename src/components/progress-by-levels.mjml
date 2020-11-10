@@ -1,13 +1,13 @@
-<mj-wrapper background-color="#FFF" padding="0px" border-radius="4px" css-class="shadow">
-  <mj-section>
+<mj-wrapper padding="0" border-radius="2px" css-class="shadow">
+  <mj-section padding="0" padding-top="24px">
     <mj-column>
       <mj-text align="center" font-size="18px" font-weight="700" font-family="Roboto" color="#37474F">Progress by levels</mj-text>
     </mj-column>
   </mj-section>
   <mj-section text-align="center" padding="24px">
     <mj-column>
-      <mj-text align="center" color="#00E5FF" font-size="36px" font-weight="500" font-style="normal">43%</mj-text>
-      <mj-text align="center" font-size="14px" font-weight="500">Company</mj-text>
+      <mj-text mj-class="progress-cyan">43%</mj-text>
+      <mj-text mj-class="progress-label">Company</mj-text>
       <mj-table padding="20px 8px">
         <tr>
           <td align="center" style="background-color: rgba(242, 242, 242, 1); border-radius: 4px; padding: 15px 10px;">
@@ -17,8 +17,8 @@
       </mj-table>
     </mj-column>
     <mj-column>
-      <mj-text align="center" color="#FF1744" font-size="36px" font-weight="500">0%</mj-text>
-      <mj-text align="center" font-size="14px" font-weight="500">Department</mj-text>
+      <mj-text mj-class="progress-red">0%</mj-text>
+      <mj-text mj-class="progress-label">Department</mj-text>
       <mj-table padding="20px 8px">
         <tr>
           <td align="center" style="background-color: rgba(242, 242, 242, 1); border-radius: 4px; padding: 15px 10px;">
@@ -28,8 +28,8 @@
       </mj-table>
     </mj-column>
     <mj-column>
-      <mj-text align="center" color="#00E676" font-size="36px" font-weight="500">16%</mj-text>
-      <mj-text align="center" font-size="14px" font-weight="500">Team</mj-text>
+      <mj-text mj-class="progress-green">16%</mj-text>
+      <mj-text mj-class="progress-label">Team</mj-text>
       <mj-table padding="20px 8px">
         <tr>
           <td align="center" style="background-color: rgba(242, 242, 242, 1); border-radius: 4px; padding: 15px 10px;">
@@ -39,8 +39,8 @@
       </mj-table>
     </mj-column>
     <mj-column>
-      <mj-text align="center" color="#FFC400" font-size="36px" font-weight="500">8%</mj-text>
-      <mj-text align="center" font-size="14px" font-weight="500">Personal</mj-text>
+      <mj-text mj-class="progress-amber">8%</mj-text>
+      <mj-text mj-class="progress-label">Personal</mj-text>
       <mj-table padding="20px 8px">
         <tr>
           <td align="center" style="background-color: rgba(242, 242, 242, 1); border-radius: 4px; padding: 15px 10px;">

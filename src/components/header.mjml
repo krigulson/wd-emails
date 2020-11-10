@@ -1,14 +1,8 @@
-<mj-section padding-top="64px">
+<mj-section padding="0" padding-top="64px" padding-bottom="32px">
   <mj-column padding="0px">
-    <mj-text align="center" color="#000" font-weight="700" font-family="Roboto" font-size="24px" font-style="normal">
-      Weekdone company OKR report is here
-    </mj-text>
-		<mj-text padding-top="8px" align="center" color="#B0BEC5" font-size="18px" font-weight="400" font-family="Roboto">Q4 2020 (Oct 22 - Oct 28)</mj-text>
-    <mj-text align="center" color="#37474F" font-size="14px" font-weight="400" padding-top="32px">
-      Hope you and your team have made good progress.
-    </mj-text>
-    <mj-text align="center" color="#37474F" font-size="14px" font-weight="400" padding-top="0">
-      Here is a snapshot of your OKRs in Weekdone.
-    </mj-text>
+    <mj-text mj-class="heading-1">Weekdone company OKR report is here</mj-text>
+		<mj-text padding-top="8px" align="center" color="#B0BEC5" font-size="18px" font-weight="400">Q4 2020 (Oct 22 - Oct 28)</mj-text>
+    <mj-text align="center" color="#37474F" font-size="14px" font-weight="400" padding-top="32px">Hope you and your team have made good progress.</mj-text>
+    <mj-text align="center" color="#37474F" font-size="14px" font-weight="400" padding-top="0">Here is a snapshot of your OKRs in Weekdone.</mj-text>
   </mj-column>
 </mj-section>

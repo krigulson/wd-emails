@@ -2,20 +2,29 @@
   <mj-head>
     <mj-title>Company OKR Report</mj-title>
     <mj-attributes>
-      <mj-class name="blue" color="blue" />
-      <mj-class name="big" font-size="20px" />
+      <mj-class name="progress-cyan" color="#00E5FF" font-size="36px" font-weight="500" font-style="normal" align="center" line-height="42px" />
+      <mj-class name="progress-red" color="#FF1744" font-size="36px" font-weight="500" font-style="normal" align="center" line-height="42px" />
+      <mj-class name="progress-green" color="#00E676" font-size="36px" font-weight="500" font-style="normal" align="center" line-height="42px" />
+      <mj-class name="progress-amber" color="#FFC400" font-size="36px" font-weight="500" font-style="normal" align="center" line-height="42px" />
+      <mj-class name="progress-label" color="#37474F" font-size="14px" font-weight="500" font-style="normal" align="center" line-height="16px" />
+
+      <mj-class name="heading-1" color="#37474F" font-size="24px" font-weight="700" font-style="normal" align="center" line-height="28px" />
+      <mj-class name="heading-2" color="#37474F" font-size="18px" font-weight="700" font-style="normal" align="center" line-height="21px" />
+      <mj-class name="heading-3" color="#37474F" font-size="14px" font-weight="700" font-style="normal" align="center" line-height="16px" />
       <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
-      <mj-all font-family: 'Roboto', sans-serif; />
+      <mj-all font-family="Roboto" />
+      <mj-text padding="0" />
     </mj-attributes>
 
-    <mj-style> .box-shadow { box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2); } .border-space tr{ border-collapse:separate; border-spacing:0 30px; background-color: #fafafa; } @media only screen and (max-width:601px), only screen and (max-device-width:601px){ @media screen and (max-width: 600px) { /* What it does: Forces table cells into full-width rows. */ .stack-column, .stack-column-center { display: block !important; width: 100% !important; max-width: 100% !important; direction: ltr !important; } /* And center justify these ones. */ .stack-column-center {text-align: center !important;} .full-width-on-narrow {width: 100% !important;} } } 
+    <mj-style>
+    @media only screen and (max-width:601px), only screen and (max-device-width:601px){ @media screen and (max-width: 600px) { /* What it does: Forces table cells into full-width rows. */ .stack-column, .stack-column-center { display: block !important; width: 100% !important; max-width: 100% !important; direction: ltr !important; } /* And center justify these ones. */ .stack-column-center {text-align: center !important;} .full-width-on-narrow {width: 100% !important;} } } 
 		.shadow {
 			box-shadow: 0px 0.4px 1.6px rgba(0, 0, 0, 0.05), 0px 1px 4.2px rgba(0, 0, 0, 0.034), 0px 2.1px 8.5px rgba(0, 0, 0, 0.028), 0px 4.4px 17.5px rgba(0, 0, 0, 0.022), 0px 12px 48px rgba(0, 0, 0, 0.016);}
 		</mj-style>
   </mj-head>
   <mj-body width="800px">
     <mj-section></mj-section>
-    <mj-wrapper padding="0 30px 10px 30px" background-color="#FFF">
+    <mj-wrapper padding="0 100px 10px 100px">
       <mj-include path="components/header.mjml" />
       <mj-include path="components/progress-by-levels.mjml" />
       <mj-include path="components/PM.mjml" />

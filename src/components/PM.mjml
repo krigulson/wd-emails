@@ -1,117 +1,135 @@
-<mj-section padding="20px 0 5px 0">
-  <mj-column>
-    <mj-table padding-bottom="0px">
+<mj-section padding="40px 0 8px 0">
+  <mj-column padding="0">
+    <mj-table padding="0px">
       <tr>
-        <td style="text-transform: capitalize; font-size: 18px; font-weight: 700; font-family: " Roboto" color:#333;"> Product management </td>
-        <td align="right" style="font-weight: 600; color: #00E676; font-size: 18px;">75%</td>
+        <td style="text-transform: capitalize; font-size: 18px; font-weight: 700; line-height: 21px; color:#37474F;">Product management</td>
+        <td style="text-align: right; font-weight: 600; color: #00E676; font-size: 18px;">75%</td>
       </tr>
     </mj-table>
   </mj-column>
 </mj-section>
-<mj-section padding="0 20px" background-color="#FFFFFF">
-  <mj-column width="100%" padding="0px 0px 0px 0px">
-    <mj-divider padding="0 0 10px" border-color="#E0E0E0" border-width="1px" border-style="solid" />
+
+<mj-section padding="0px">
+  <mj-column width="100%" padding="0px">
+    <mj-divider padding="0 0 24px" border-color="#E0E0E0" border-width="1px" border-style="solid" />
   </mj-column>
 </mj-section>
-<mj-section padding="0 15px">
+
+<mj-section padding="0">
   <mj-column padding="0">
-    <mj-table width="100%" padding="0">
+    <mj-table padding="0" width="100%">
       <tr>
-        <td>
-          <span style="background-color: #fafafa;
-											 border:1px solid #fafafa;
-											 border-radius:100%;
-											 color: #999;
-											 display: inline-block;
-											 font-family: 'Roboto';
-											 font-size: 10px;
-											 line-height: 25px;
-											 font-weight: 900;
-											 text-align: center;
-											 width: 24px;
-											 height: 24px;">O</span>
+        <td style="vertical-align: top; width: 24px; padding-right: 8px;"><img width="24px" src="img/icons-avatars-objective-4x.png"></td>
+				<td style="vertical-align: top;"><span style="color: #37474F; font-weight: 700; font-size: 14px;">Successfully launch version 3 of our main product </span></td>
+        <td style="vertical-align: top; width: 50px; text-align: right;"><span style="color:#37474F; font-weight: 700; font-size: 14px;">85%</span></td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+
+<mj-section padding="0" padding-left="32px" padding-top="10px" padding-bottom="24px">
+  <mj-column padding="0">
+    <mj-table cellpadding="0" padding="0">
+      <tr>
+        <td style="padding-top: 12px; padding-right: 8px; vertical-align: top;"><img width="24px" src="img/icons-avatars-key-result-4x.png"></td>
+				<td style="padding-top: 12px; vertical-align: top;">
+					<span style="color: #37474F; font-weight: 400; font-size: 14px;">
+						Map and analyze the performance of all of our current marketing channels and give at least 10 recommendations on how to improve them
+					</span>
+				</td>
+				<td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;">
+					<div style="font-weight: 400; font-size: 14px; color: #62C462;">+1001</div>
+				</td>
+        <td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;">
+					<div style="font-weight: 500; font-size: 14px; color: #37474F;">5008</div>
+					<div style="font-weight: 400; font-size: 14px; color: #B0BEC5;">/10 000</div>
         </td>
-				<td><span style="color: #333; font-weight: 700; font-size: 14px;"> Successfully launch version 3 of our main product </span></td>
-        <td width="15%" align="right">
-          <span style="color:#333; font-weight: 700; font-size: 14px;">85%</span>
+      </tr>
+
+      <tr>
+        <td style="padding-top: 12px; padding-right: 8px; vertical-align: top;"><img width="24px" src="img/icons-avatars-key-result-4x.png"></td>
+				<td style="padding-top: 12px; vertical-align: top;">
+					<span style="color: #37474F; font-weight: 400; font-size: 14px;">Get published product reviews in over 15 publications</span>
+				</td>
+				<td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;">
+					<img width="16px" src="img/icons-actions-comment-4x.png">
+				</td>
+        <td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;">
+					<div style="font-weight: 500; font-size: 14px; color: #37474F;">7</span>
+					<div style="font-weight: 400; font-size: 14px; color: #B0BEC5;">/15</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding-top: 12px; padding-right: 8px; vertical-align: top;"><img width="24px" src="img/icons-avatars-key-result-4x.png"></td>
+				<td style="padding-top: 12px; vertical-align: top;">
+					<span style="color: #37474F; font-weight: 400; font-size: 14px;">Achieve sign-up to trial ratio of over 25%</span>
+				</td>
+				<td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;"></td>
+        <td style="padding-top: 12px; vertical-align: top; text-align: right; width: 50px;">
+					<div style="font-weight: 500; font-size: 14px; color: #37474F;">13%</div>
+					<div style="font-weight: 400; font-size: 14px; color: #B0BEC5;">/25%</div>
         </td>
       </tr>
     </mj-table>
   </mj-column>
 </mj-section>
-<mj-section padding-left="30px" padding-right="15px" padding-top="10px" padding-bottom="0">
+
+
+<mj-section padding="0">
   <mj-column padding="0">
-    <mj-table font-family="Roboto" cellpadding="0" padding="0">
+    <mj-table padding="0" width="100%">
       <tr>
-        <td>
-          <span style="background-color: #fafafa;
-											 border:1px solid #fafafa;
-											 border-radius:100%;
-											 color: #999;
-											 display: inline-block;
-											 font-family: 'Roboto';
-											 font-size: 10px;
-											 line-height: 25px;
-											 font-weight: 900;
-											 text-align: center;
-											 width: 24px;
-											 height: 24px;">KR</span>
-        </td>
-				<td><span style="color: #333; font-weight: 400; font-size: 14px;">Get over 10000 new signups </span></td>
-        <td align="right" width="35%">
-          <span style="font-weight: 600;">
-						<span style="font-weight: 500; font-size: 14px">5008</span>
-						<span style="font-weight: 400; font-size: 14px">/10000</span>
+        <td style="vertical-align: top; width: 24px; padding-right: 8px;"><img width="24px" src="img/icons-avatars-objective-4x.png"></td>
+				<td style="vertical-align: top;"><span style="color: #37474F; font-weight: 700; font-size: 14px;">Successfully launch version 3 of our main product </span></td>
+        <td style="vertical-align: top; width: 50px; text-align: right;"><span style="color:#37474F; font-weight: 700; font-size: 14px;">85%</span></td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+
+<mj-section padding="0" padding-left="32px" padding-top="10px" padding-bottom="0">
+  <mj-column padding="0">
+    <mj-table cellpadding="0" padding="0">
+      <tr>
+        <td style="padding-top: 12px; padding-right: 8px; vertical-align: top;"><img width="24px" src="img/icons-avatars-key-result-4x.png"></td>
+				<td style="padding-top: 12px; vertical-align: top;">
+					<span style="color: #37474F; font-weight: 400; font-size: 14px;">
+						Map and analyze the performance of all of our current marketing channels and give at least 10 recommendations on how to improve them
 					</span>
-					<div><span style="font-weight: 500; font-size: 12px; color: #62C462;">+1001*</span></div>
+				</td>
+				<td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;">
+					<div style="font-weight: 400; font-size: 14px; color: #62C462;">+1001</div>
+				</td>
+        <td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;">
+					<div style="font-weight: 500; font-size: 14px; color: #37474F;">5008</div>
+					<div style="font-weight: 400; font-size: 14px; color: #B0BEC5;">/10 000</div>
         </td>
       </tr>
+
       <tr>
-        <td>
-          <span style="background-color: #fafafa;
-											 border:1px solid #fafafa;
-											 border-radius:100%;
-											 color: #999;
-											 display: inline-block;
-											 font-family: 'Roboto';
-											 font-size: 10px;
-											 line-height: 25px;
-											 font-weight: 900;
-											 text-align: center;
-											 width: 24px;
-											 height: 24px;">KR</span>
-        </td>
-				<td><span style="color: #333; font-weight: 400; font-size: 14px;"> Get published product reviews in over 15 publications </span></td>
-        <td align="right" width="20%">
-          <span style="font-weight: 600;">
-						<span style="font-weight: 500; font-size: 14px">7</span>
-						<span style="font-weight: 400; font-size: 14px">/15</span>
-					</span>
-					<div><span style="font-weight: 500; font-size: 12px; color: #62C462;">New comments</span></div>
+        <td style="padding-top: 12px; padding-right: 8px; vertical-align: top;"><img width="24px" src="img/icons-avatars-key-result-4x.png"></td>
+				<td style="padding-top: 12px; vertical-align: top;">
+					<span style="color: #37474F; font-weight: 400; font-size: 14px;">Get published product reviews in over 15 publications</span>
+				</td>
+				<td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;">
+					<img width="16px" src="img/icons-actions-comment-4x.png">
+				</td>
+        <td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;">
+					<div style="font-weight: 500; font-size: 14px; color: #37474F;">7</span>
+					<div style="font-weight: 400; font-size: 14px; color: #B0BEC5;">/15</span>
         </td>
       </tr>
+
       <tr>
-        <td>
-          <span style="background-color: #fafafa;
-											 border:1px solid #fafafa;
-											 border-radius:100%;
-											 color: #999;
-											 display: inline-block;
-											 font-family: 'Roboto';
-											 font-size: 10px;
-											 line-height: 25px;
-											 font-weight: 900;
-											 text-align: center;
-											 width: 24px;
-											 height: 24px;">KR</span>
-        </td>
-				<td><span style="color: #333; font-weight: 400; font-size: 14px;"> Achieve sign-up to trial ratio of over 25% </span></td>
-        <td align="right" width="35%">
-          <span style="font-weight: 600;">
-						<span style="font-weight: 500; font-size: 14px">13%</span>
-						<span style="font-weight: 400; font-size: 14px">/25%</span>
-					</span>
-					<div><span style="font-weight: 500; font-size: 12px; color: #E00605;">No updates</span></div>
+        <td style="padding-top: 12px; padding-right: 8px; vertical-align: top;"><img width="24px" src="img/icons-avatars-key-result-4x.png"></td>
+				<td style="padding-top: 12px; vertical-align: top;">
+					<span style="color: #37474F; font-weight: 400; font-size: 14px;">Achieve sign-up to trial ratio of over 25%</span>
+				</td>
+				<td style="padding-top: 12px; text-align: right; vertical-align: top; width: 50px;"></td>
+        <td style="padding-top: 12px; vertical-align: top; text-align: right; width: 50px;">
+					<div style="font-weight: 500; font-size: 14px; color: #37474F;">13%</div>
+					<div style="font-weight: 400; font-size: 14px; color: #B0BEC5;">/25%</div>
         </td>
       </tr>
     </mj-table>
