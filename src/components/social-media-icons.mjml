@@ -1,20 +1,20 @@
-<mj-section padding-top="20px" background-color="#fff">
+<mj-section padding-top="20px">
   <mj-column padding="0">
     <mj-table width="100%" padding="0">
       <table align="center">
         <tr>
           <td align="center">
-            <a href="#" style="text-decoration: none;">
-              <img align="center" alt="Weekdone" width="20px" style="padding: 5px" src="https://beta.weekdone.com/img/email/grayscale-youtube.svg" />
+            <a href="#" style="text-decoration: none; padding-right: 16px;">
+              <img width="24px" alt="YouTube" src="img/icons-logos-youtube-4x.png">
             </a>
-            <a href="#" style="text-decoration: none;">
-              <img align="center" alt="Weekdone" width="20px" style="padding: 5px" src="https://beta.weekdone.com/img/email/grayscale-facebook.svg" />
+            <a href="#" style="text-decoration: none; padding-right: 16px;">
+              <img width="24px" alt="Facebook" src="img/icons-logos-facebook-4x.png">
             </a>
-            <a href="#" style="text-decoration: none;">
-              <img align="center" alt="Weekdone" width="20px" style="padding: 5px" src="https://beta.weekdone.com/img/email/grayscale-twitter.svg" />
+            <a href="#" style="text-decoration: none; padding-right: 16px;">
+              <img width="24px" alt="Twitter" src="img/icons-logos-twitter-4x.png">
             </a>
-            <a href="#" style="text-decoration: none;">
-              <img align="center" alt="Weekdone" width="20px" style="padding: 5px" src="https://beta.weekdone.com/img/email/grayscale-linkedin.svg" />
+            <a href="#" style="text-decoration: none; padding-right: 16px;">
+              <img width="24px" alt="LinkedIn" src="img/icons-logos-linkedin-4x.png">
             </a>
           </td>
         </tr>
